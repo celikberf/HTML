@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="">
+
+            <!--required : bişey girilmesi zorunlu-->
+
+            <label for="isim">Ad:</label>
+            <input type="text" name="isim" id="isim" placeholder="Ahmet" required>
+
+            <br><br>
+
+            <label for="">Soyad:</label>
+            <input type="text" name="soyad" id="soyad" placeholder="Yılmaz">
+
+            <br><br>
+
+            <label for="sifre">Şifre:</label>
+            <input type="password" name="sifre" id="sifre" placeholder="********" maxlength="15">
+
+            <br><br>
+
+            <label for="telefon">Telefon:</label>
+            <input type="tel" name="telefon" id="telefon" placeholder="(555)555 55 55">
+            <br><br>
+
+            <label for="tarih">Doğum Günü:</label>
+            <input type="date" name="tarih" id="tarih">
+
+            <br><br>
+
+            <label for="kardes">Kardeş Sayısı</label>:</label>
+            <input type="number" name="kardes" id="kardes" min="0" max="30">
+
+            <br><br>
+
+            <label for="cinsiyet">Cinsiyet:</label>
+            <label for="kadın">Kadın</label>
+            <input type="radio" name="cinsiyet" id="kadın" value="kadın">
+            <label for="erkek">Erkek</label>
+            <input type="radio" name="cinsiyet" id="erkek" value="erkek">
+
+            <br><br>
+
+            <select name="" id="">
+
+                <option value="ssk">SSK</option>
+                <option value="bagkur">Bağkur</option>
+                <option value="emekli">Emekli Sandığı</option>
+
+            </select>
+
+            <br><br>
+
+            <label for="">Aktif olarak çalışıyor musunuz</label>
+            <input type="checkbox">
+
+            <br><br>
+
+            <textarea name="" id="" cols="15" rows="5"></textarea>
+
+            <br><br>
+
+            <input type="file" accept=".pdf">
+
+            <br><br>
+
+            <input type="reset">
+            <input type="submit">
+    </form>
+</body>
+</html>
